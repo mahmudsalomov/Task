@@ -9,12 +9,12 @@ public class Main {
         List<Box> boxList=new ArrayList<>();
 
         boxList.add(new Box(10, 10, 5));
-        boxList.add(new Box(3, 3, 10));
+//        boxList.add(new Box(3, 3, 10));
         boxList.add(new Box(2, 2, 8));
         boxList.add(new Box(9, 5, 3));
-        boxList.add(new Box(9, 9, 1));
+//        boxList.add(new Box(9, 9, 1));
         boxList.add(new Box(1, 1, 1));
-        boxList.add(new Box(2, 2, 2));
+//        boxList.add(new Box(2, 2, 2));
 
         List<Integer> maxSequences = getMaxSequence(boxList);
         System.out.println(maxSequences);
