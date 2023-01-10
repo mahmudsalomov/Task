@@ -48,6 +48,9 @@ public class Main {
     {
         List<List<Integer>> indexes=new ArrayList<>();
 
+        System.out.println("Given boxes:");
+        System.out.println(boxes);
+
         boxes.sort((a, b) -> (b.height * b.width - a.height * a.width));
 
         System.out.println("Sorted boxes:");
